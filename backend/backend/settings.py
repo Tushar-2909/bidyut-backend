@@ -11,7 +11,11 @@ SECRET_KEY = 'django-insecure-change-this-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'bidyut-backend-q1qq.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # -------------------------------
